@@ -43,7 +43,6 @@ public class EmbalagemService {
             produtosNaCaixa.add(produtoAtual);
             produtosParaEmpacotar.removeFirst();
 
-            // Tentar adicionar mais produtos na mesma caixa
             Iterator<Produto> iterator = produtosParaEmpacotar.iterator();
             while (iterator.hasNext()) {
                 Produto produto = iterator.next();

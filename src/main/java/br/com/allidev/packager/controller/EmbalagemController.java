@@ -3,6 +3,8 @@ package br.com.allidev.packager.controller;
 import br.com.allidev.packager.dto.EmbalagemRequestDTO;
 import br.com.allidev.packager.dto.EmbalagemResponseDTO;
 import br.com.allidev.packager.service.EmbalagemService;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -22,6 +24,7 @@ public class EmbalagemController {
     }
 
     @PostMapping("/calcular")
+    @Operation(summary = "Calcular embalagem para pedidos", security = @SecurityRequirement(name = "basicAuth"))
     public ResponseEntity<EmbalagemResponseDTO> calcularEmbalagem(@RequestBody EmbalagemRequestDTO request) {
         if (request == null || request.getPedidos() == null) {
             return ResponseEntity.badRequest().build();
