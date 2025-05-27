@@ -1,4 +1,4 @@
-package br.com.allidev.packager.dto.response;
+package br.com.allidev.packager.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -11,8 +11,7 @@ import java.util.List;
 @AllArgsConstructor
 @Getter
 @Setter
-public class PedidoResponse {
+public class EmbalagemResponseDTO {
 
-    private Long pedido_id;
-    private List<CaixaResponse> caixas;
+    private List<PedidoResponseDTO> pedidos;
 }

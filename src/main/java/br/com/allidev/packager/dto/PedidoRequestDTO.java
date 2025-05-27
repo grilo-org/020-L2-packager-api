@@ -1,4 +1,4 @@
-package br.com.allidev.packager.dto.request;
+package br.com.allidev.packager.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -11,8 +11,8 @@ import java.util.List;
 @AllArgsConstructor
 @Getter
 @Setter
-public class PedidoRequest {
+public class PedidoRequestDTO {
 
     private Long pedido_id;
-    private List<ProdutoRequest> produtos;
+    private List<ProdutoRequestDTO> produtos;
 }

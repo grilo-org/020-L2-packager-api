@@ -1,4 +1,4 @@
-package br.com.allidev.packager.dto.response;
+package br.com.allidev.packager.dto;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.AllArgsConstructor;
@@ -13,13 +13,13 @@ import java.util.List;
 @Getter
 @Setter
 @JsonInclude(JsonInclude.Include.NON_NULL)
-public class CaixaResponse {
+public class CaixaResponseDTO {
 
     private String caixa_id;
     private List<String> produtos;
     private String observacao;
 
-    public CaixaResponse(String caixa_id, List<String> produtos) {
+    public CaixaResponseDTO(String caixa_id, List<String> produtos) {
         this.caixa_id = caixa_id;
         this.produtos = produtos;
     }

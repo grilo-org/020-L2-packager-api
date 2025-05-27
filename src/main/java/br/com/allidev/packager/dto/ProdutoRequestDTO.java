@@ -1,4 +1,4 @@
-package br.com.allidev.packager.dto.request;
+package br.com.allidev.packager.dto;
 
 import br.com.allidev.packager.model.Dimensoes;
 import lombok.AllArgsConstructor;
@@ -10,7 +10,7 @@ import lombok.Setter;
 @AllArgsConstructor
 @Getter
 @Setter
-public class ProdutoRequest {
+public class ProdutoRequestDTO {
 
     private String produto_id;
     private Dimensoes dimensoes;
