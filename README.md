@@ -1,6 +1,6 @@
 # 📦 API de Embalagem para Loja de Jogos Online
 
-## 🌟 Visão Geral
+## 💡 Visão Geral
 API para cálculo automático de embalagens de produtos em caixas de papelão, otimizando o espaço utilizado e sugerindo a melhor combinação de caixas para cada pedido.
 
 ## 🛠️ Tecnologias Utilizadas
