@@ -5,11 +5,11 @@ API para cálculo automático de embalagens de produtos em caixas de papelão, o
 
 ## 🛠️ Tecnologias Utilizadas
 
-### Backend
+### Back-end
 | Tecnologia | Versão | Finalidade |
 |------------|--------|------------|
 | ![Java](https://img.shields.io/badge/Java-21-007396?logo=openjdk) | 21 | Linguagem principal |
-| ![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.5.0-6DB33F?logo=spring) | 3.5.0 | Framework backend |
+| ![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.5.0-6DB33F?logo=spring) | 3.5.0 | Framework back-end |
 | ![Spring Security](https://img.shields.io/badge/Spring_Security-6.5.0-6DB33F?logo=spring) | 6.5.0 | Autenticação e autorização |
 | ![SpringDoc OpenAPI](https://img.shields.io/badge/SpringDoc-2.8.8-6DB33F?logo=swagger) | 2.8.8 | Documentação da API (Swagger) |
 | ![JUnit](https://img.shields.io/badge/JUnit-5-25A162?logo=junit5) | 5 | Testes unitários |
