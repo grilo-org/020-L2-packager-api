@@ -9,21 +9,21 @@ API para cálculo automático de embalagens de produtos em caixas de papelão, o
 | Tecnologia | Versão | Finalidade |
 |------------|--------|------------|
 | ![Java](https://img.shields.io/badge/Java-21-007396?logo=openjdk) | 21 | Linguagem principal |
-| ![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.2.0-6DB33F?logo=spring) | 3.2.0 | Framework backend |
-| ![Spring Security](https://img.shields.io/badge/Spring_Security-6.1.0-6DB33F?logo=spring) | 6.1.0 | Autenticação e autorização |
-| ![SpringDoc OpenAPI](https://img.shields.io/badge/SpringDoc-2.3.0-6DB33F?logo=swagger) | 2.3.0 | Documentação da API (Swagger) |
+| ![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.5.0-6DB33F?logo=spring) | 3.5.0 | Framework backend |
+| ![Spring Security](https://img.shields.io/badge/Spring_Security-6.5.0-6DB33F?logo=spring) | 6.5.0 | Autenticação e autorização |
+| ![SpringDoc OpenAPI](https://img.shields.io/badge/SpringDoc-2.8.8-6DB33F?logo=swagger) | 2.8.8 | Documentação da API (Swagger) |
 | ![JUnit](https://img.shields.io/badge/JUnit-5-25A162?logo=junit5) | 5 | Testes unitários |
 
 ### Infraestrutura
 | Tecnologia | Versão | Finalidade |
 |------------|--------|------------|
-| ![Docker](https://img.shields.io/badge/Docker-24.0.7-2496ED?logo=docker) | 24.0.7 | Containerização |
-| ![Maven](https://img.shields.io/badge/Maven-3.9.6-C71A36?logo=apachemaven) | 3.9.6 | Gerenciamento de dependências |
+| ![Docker](https://img.shields.io/badge/Docker-28.1.1-2496ED?logo=docker) | 28.1.1 | Containerização |
+| ![Maven](https://img.shields.io/badge/Maven-3.9.9-C71A36?logo=apachemaven) | 3.9.9 | Gerenciamento de dependências |
 
 ## 📋 Requisitos do Sistema
 - JDK 21+
 - Maven 3.9+
-- Docker 24.0+ (opcional)
+- Docker 28.0+ (opcional)
 
 ## 🚀 Como Executar
 
@@ -34,7 +34,7 @@ mvn clean install
 
 ### 2. Execução com Docker
 ```bash
-docker-compose up --build
+docker compose up
 ```
 
 ### 3. Execução Local
